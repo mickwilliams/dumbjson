@@ -3,6 +3,7 @@
 * Dumb json lets you be dumb with json
 * Anything before the first { or [ or " are treated as a comment and ignored
 * Don't use { or [ or " in your comments or they will be parsed
+* Add context to a json file without adding a key
  
 ## Usage
 
