@@ -1,0 +1,26 @@
+{
+  "name": "dumbjson",
+  "version": "0.0.1",
+  "description": "Dumb json lets you be dumb with json. Ignore comment data for readability. That's it. Pretty dumb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "typescript" : "node_modules/.bin/tsc src/index.ts --noImplicitAny --lib ES2017 -t ES2016 --moduleResolution Node --outFile index.js",
+    "tsc"        : "node_modules/.bin/tsc src/index.ts --noImplicitAny --lib ES2017 -t ES2016 --moduleResolution Node --outFile index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickwilliams/dumbjson.git"
+  },
+  "author": "mickwilliams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mickwilliams/dumbjson/issues"
+  },
+  "homepage": "https://github.com/mickwilliams/dumbjson#readme",
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "jest": "^24.7.1",
+    "typescript": "^3.4.1"
+  }
+}
