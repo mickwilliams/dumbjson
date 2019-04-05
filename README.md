@@ -2,7 +2,7 @@
 
 * Dumb json lets you be dumb with json
 * Anything before the first { or [ or " are treated as a comment and ignored
-* Don't use { [ " or ' in your comments or they will be parsed
+* Don't use { or [ or " in your comments or they will be parsed
  
 ## Usage
 
